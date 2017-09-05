@@ -11,6 +11,11 @@
 .logo {
   display: flex;
   color: mediumaquamarine;
+  padding-left: 20px;
+}
+
+.logotype {
+  padding-left: 130px;
 }
 
 .nav {
