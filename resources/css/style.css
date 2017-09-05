@@ -1,11 +1,16 @@
 
 
 .header {
-  display: inline-flex;
+  display: inline;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  width: 100%;
+}
 
+.a {
+  display: inline-flex;
+  color: black;
 }
 
 .logo {
@@ -15,11 +20,16 @@
 }
 
 .logotype {
-  padding-left: 130px;
+  padding-left: 20px;
 }
 
 .nav {
-  display: inline-flex;
+  display: inline;
+  float: right;
+}
+
+.color{
+  color: black;
 }
 
 .column {
