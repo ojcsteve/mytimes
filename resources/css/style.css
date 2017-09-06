@@ -1,31 +1,50 @@
 
-
+.body {
+  max-width: 760px;
+  margin: 20px auto 0 auto;
+}
 .header {
   display: inline;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   width: 100%;
+
+
+}
+.header nav {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 66px;
+}
+
+nav {
+   color: black;
+   font-weight: bold;
+   padding: 20px;
 }
 
 .a {
   display: inline-flex;
-  color: black;
 }
 
 .logo {
   display: flex;
   color: mediumaquamarine;
   padding-left: 20px;
+  align-items: flex-start;
+
+
 }
 
 .logotype {
   padding-left: 20px;
+  margin-right: 300px;
 }
 
 .nav {
   display: inline;
-  float: right;
+
 }
 
 .color{
